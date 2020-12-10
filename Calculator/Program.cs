@@ -14,7 +14,6 @@ namespace Calculator
         static char operatorChar;
         static void Main(string[] args)
         {
-
             try
             {
                 Console.WriteLine("Pls enter 1st number:");

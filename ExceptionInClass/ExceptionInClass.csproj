@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DDC301CE-1198-49CE-BA24-C824791AA5AA}</ProjectGuid>
+    <ProjectGuid>{B962FDAA-5738-405F-A7CF-66498572DA62}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ExceptionHandelingDemo</RootNamespace>
-    <AssemblyName>ExceptionHandelingDemo</AssemblyName>
+    <RootNamespace>ExceptionInClass</RootNamespace>
+    <AssemblyName>ExceptionInClass</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\LoginInformation.cs" />
+    <Compile Include="Models\PasswordException.cs" />
+    <Compile Include="Models\UserNameException.cs" />
+    <Compile Include="Models\UserValidation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

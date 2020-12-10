@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandelingDemo", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{19D9E6E3-9DB6-484E-B23E-1D0CA0EA70E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionInClass", "ExceptionInClass\ExceptionInClass.csproj", "{B962FDAA-5738-405F-A7CF-66498572DA62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{19D9E6E3-9DB6-484E-B23E-1D0CA0EA70E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19D9E6E3-9DB6-484E-B23E-1D0CA0EA70E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19D9E6E3-9DB6-484E-B23E-1D0CA0EA70E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B962FDAA-5738-405F-A7CF-66498572DA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B962FDAA-5738-405F-A7CF-66498572DA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B962FDAA-5738-405F-A7CF-66498572DA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B962FDAA-5738-405F-A7CF-66498572DA62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
